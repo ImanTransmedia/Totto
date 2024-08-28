@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 0
-  companyName: UnityTechnologies
-  productName: BoatAttack
+  companyName: ImanTransmedia
+  productName: Totto
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -141,7 +141,7 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
-  bundleVersion: 0.9
+  bundleVersion: 1
   preloadedAssets:
   - {fileID: 0}
   - {fileID: 0}
@@ -167,7 +167,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.Unity3d.BoatAttackDay
+    Android: com.ImanTransmedia.Totto
     Lumin: com.DefaultCompany.BoatAttack
     Standalone: com.UnityTechnologies.BoatAttack
     iPhone: com.Unity3D.BoatAttack
