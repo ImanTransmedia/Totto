@@ -13,6 +13,7 @@ TagManager:
   - benchmark_flythrough
   - console_canvas
   - TottoMachine
+  - Projectile
   layers:
   - Default
   - TransparentFX
