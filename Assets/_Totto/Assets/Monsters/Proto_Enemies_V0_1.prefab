@@ -15,10 +15,9 @@ GameObject:
   - component: {fileID: 8716938350931762505}
   - component: {fileID: 3426820970129650951}
   - component: {fileID: 1720507195639775629}
-  - component: {fileID: 8328056053764998760}
   - component: {fileID: 8365963712721771508}
   m_Layer: 0
-  m_Name: Proto_Enemies
+  m_Name: Proto_Enemies_V0_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38,6 +37,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1875943847378204286}
+  - {fileID: 6361842954367127286}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4612019657206682877
@@ -55,7 +55,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4818827392051689990}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -107,7 +107,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
@@ -147,17 +147,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Agent","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AI.NavMeshAgent,
-      UnityEngine.AIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"velocityFly","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      UnityEngine.AIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"velocityFly","value":{"$content":15.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Bubble","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"HitEvents","value":{"m_PersistentCalls":{"m_Calls":[{"m_Target":2,"m_TargetAssemblyTypeName":"UnityEngine.GameObject,
       UnityEngine","m_MethodName":"SetActive","m_Mode":"Bool","m_Arguments":{"m_ObjectArgument":3,"m_ObjectArgumentAssemblyTypeName":"UnityEngine.Object,
       UnityEngine","m_IntArgument":0,"m_FloatArgument":0.0,"m_StringArgument":"","m_BoolArgument":true},"m_CallState":"RuntimeOnly"},{"m_Target":4,"m_TargetAssemblyTypeName":"UnityEngine.Animator,
       UnityEngine","m_MethodName":"Play","m_Mode":"String","m_Arguments":{"m_ObjectArgument":5,"m_ObjectArgumentAssemblyTypeName":"UnityEngine.Object,
-      UnityEngine","m_IntArgument":0,"m_FloatArgument":0.0,"m_StringArgument":"ScaleAnim","m_BoolArgument":false},"m_CallState":"RuntimeOnly"}]},"$type":"UnityEngine.Events.UnityEvent"},"typeHandle":{"Identification":"UnityEngine.Events.UnityEvent,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"StartEvent","value":{"m_PersistentCalls":{"m_Calls":[{"m_Target":6,"m_TargetAssemblyTypeName":"UnityEngine.GameObject,
-      UnityEngine","m_MethodName":"SetActive","m_Mode":"Bool","m_Arguments":{"m_ObjectArgument":7,"m_ObjectArgumentAssemblyTypeName":"UnityEngine.Object,
+      UnityEngine","m_IntArgument":0,"m_FloatArgument":0.0,"m_StringArgument":"ScaleAnim","m_BoolArgument":false},"m_CallState":"RuntimeOnly"},{"m_Target":6,"m_TargetAssemblyTypeName":"UnityEngine.Animator,
+      UnityEngine","m_MethodName":"Play","m_Mode":"String","m_Arguments":{"m_ObjectArgument":7,"m_ObjectArgumentAssemblyTypeName":"UnityEngine.Object,
+      UnityEngine","m_IntArgument":0,"m_FloatArgument":0.0,"m_StringArgument":"Idle","m_BoolArgument":false},"m_CallState":"RuntimeOnly"}]},"$type":"UnityEngine.Events.UnityEvent"},"typeHandle":{"Identification":"UnityEngine.Events.UnityEvent,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"StartEvent","value":{"m_PersistentCalls":{"m_Calls":[{"m_Target":8,"m_TargetAssemblyTypeName":"UnityEngine.GameObject,
+      UnityEngine","m_MethodName":"SetActive","m_Mode":"Bool","m_Arguments":{"m_ObjectArgument":9,"m_ObjectArgumentAssemblyTypeName":"UnityEngine.Object,
       UnityEngine","m_IntArgument":0,"m_FloatArgument":0.0,"m_StringArgument":"","m_BoolArgument":false},"m_CallState":"RuntimeOnly"}]},"$type":"UnityEngine.Events.UnityEvent"},"typeHandle":{"Identification":"UnityEngine.Events.UnityEvent,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Collider","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Rigidbody,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Collider","value":{"$content":10,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Rigidbody,
       UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 8716938350931762505}
@@ -166,9 +168,11 @@ MonoBehaviour:
     - {fileID: 0}
     - {fileID: 8365963712721771508}
     - {fileID: 0}
+    - {fileID: 1056624770434602124}
+    - {fileID: 0}
     - {fileID: 7588034205348966371}
     - {fileID: 0}
-    - {fileID: 8328056053764998760}
+    - {fileID: 1068334531768498464}
 --- !u!114 &1720507195639775629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -185,33 +189,6 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 8f6d3bafe8a686448aaa129802f476e2, type: 2}
---- !u!54 &8328056053764998760
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4818827392051689990}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 2
 --- !u!95 &8365963712721771508
 Animator:
   serializedVersion: 5
@@ -334,7 +311,113 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &6817279567602670782
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4800395201211040014}
+    m_Modifications:
+    - target: {fileID: 491483691867148872, guid: 1445d19adb7fa5647b7afa46aab82c4b,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.4498669
+      objectReference: {fileID: 0}
+    - target: {fileID: 491483691867148872, guid: 1445d19adb7fa5647b7afa46aab82c4b,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.4498669
+      objectReference: {fileID: 0}
+    - target: {fileID: 491483691867148872, guid: 1445d19adb7fa5647b7afa46aab82c4b,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.4498669
+      objectReference: {fileID: 0}
+    - target: {fileID: 491483691867148872, guid: 1445d19adb7fa5647b7afa46aab82c4b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 491483691867148872, guid: 1445d19adb7fa5647b7afa46aab82c4b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.465
+      objectReference: {fileID: 0}
+    - target: {fileID: 491483691867148872, guid: 1445d19adb7fa5647b7afa46aab82c4b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 491483691867148872, guid: 1445d19adb7fa5647b7afa46aab82c4b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 491483691867148872, guid: 1445d19adb7fa5647b7afa46aab82c4b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 491483691867148872, guid: 1445d19adb7fa5647b7afa46aab82c4b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 491483691867148872, guid: 1445d19adb7fa5647b7afa46aab82c4b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 491483691867148872, guid: 1445d19adb7fa5647b7afa46aab82c4b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 491483691867148872, guid: 1445d19adb7fa5647b7afa46aab82c4b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 491483691867148872, guid: 1445d19adb7fa5647b7afa46aab82c4b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 980035931699661042, guid: 1445d19adb7fa5647b7afa46aab82c4b,
+        type: 3}
+      propertyPath: m_Name
+      value: Castle Guard 02
+      objectReference: {fileID: 0}
+    - target: {fileID: 5785062000277349790, guid: 1445d19adb7fa5647b7afa46aab82c4b,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1445d19adb7fa5647b7afa46aab82c4b, type: 3}
+--- !u!95 &1056624770434602124 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5778739566787577906, guid: 1445d19adb7fa5647b7afa46aab82c4b,
+    type: 3}
+  m_PrefabInstance: {fileID: 6817279567602670782}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1068334531768498464 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 5785062000277349790, guid: 1445d19adb7fa5647b7afa46aab82c4b,
+    type: 3}
+  m_PrefabInstance: {fileID: 6817279567602670782}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6361842954367127286 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 491483691867148872, guid: 1445d19adb7fa5647b7afa46aab82c4b,
+    type: 3}
+  m_PrefabInstance: {fileID: 6817279567602670782}
+  m_PrefabAsset: {fileID: 0}
