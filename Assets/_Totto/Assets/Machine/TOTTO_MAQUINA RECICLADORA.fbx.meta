@@ -1,9 +1,54 @@
 fileFormatVersion: 2
-guid: a46dfc158f08a334c9050353ccc8eb24
+guid: 8942036d6d232a742b150cd038ec89f8
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOGO TOTTO
+    second: {fileID: 2100000, guid: cd9394ad4ee00654d9ea7e591e7ade23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LuzA
+    second: {fileID: 2100000, guid: 9f86422384bad67499c93346608c63a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 6cbacb67796801843bd1fe01f2e8d8cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 4c84d8eed2f59644f986be688301a7b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 92fe3347b6399aa458e125ed1e144dcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalBrillante
+    second: {fileID: 2100000, guid: 7c31b0d2bdde2a449b1a6f8aba5147b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalN1
+    second: {fileID: 2100000, guid: de878d6f4d084c04da9781e6fd1e3d7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalP
+    second: {fileID: 2100000, guid: 4798b9ad41cb6c94f98d6dd5bc086c42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pantalla
+    second: {fileID: 2100000, guid: 077ca31bd23df3c48b5d493d5c3e9126, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
