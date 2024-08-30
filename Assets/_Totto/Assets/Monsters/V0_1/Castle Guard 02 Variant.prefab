@@ -173,6 +173,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Guard 02 Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 980035931699661042, guid: 1445d19adb7fa5647b7afa46aab82c4b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 980035931699661042, guid: 1445d19adb7fa5647b7afa46aab82c4b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemies
+      objectReference: {fileID: 0}
     - target: {fileID: 5785062000277349790, guid: 1445d19adb7fa5647b7afa46aab82c4b,
         type: 3}
       propertyPath: m_UseGravity
