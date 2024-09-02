@@ -15,6 +15,7 @@ TagManager:
   - TottoMachine
   - Projectile
   - Enemies
+  - Bottle
   layers:
   - Default
   - TransparentFX
