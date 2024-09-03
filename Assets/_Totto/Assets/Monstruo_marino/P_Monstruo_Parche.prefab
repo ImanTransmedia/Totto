@@ -519,6 +519,12 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 570941796686106160}
   m_SourcePrefab: {fileID: 100100000, guid: 4d98980a1c1ae6d4bb917d7780ccd248, type: 3}
+--- !u!137 &98602998877697365 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -8887191927268716564, guid: 4d98980a1c1ae6d4bb917d7780ccd248,
+    type: 3}
+  m_PrefabInstance: {fileID: 428990821065915065}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &179771927164099922 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4d98980a1c1ae6d4bb917d7780ccd248,
@@ -650,7 +656,10 @@ MonoBehaviour:
       UnityEngine","m_IntArgument":0,"m_FloatArgument":0.0,"m_StringArgument":"","m_BoolArgument":false},"m_CallState":"RuntimeOnly"}]},"$type":"UnityEngine.Events.UnityEvent"},"typeHandle":{"Identification":"UnityEngine.Events.UnityEvent,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Collider","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Rigidbody,
       UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Animator","value":{"$content":9,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Animator,
-      UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Skin","value":{"$content":10,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.SkinnedMeshRenderer,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Skins","value":{"$content":[{"$content":11,"$type":"UnityEngine.Object"},{"$content":12,"$type":"UnityEngine.Object"},{"$content":13,"$type":"UnityEngine.Object"}],"$type":"Unity.VisualScripting.AotList"},"typeHandle":{"Identification":"Unity.VisualScripting.AotList,
+      Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"SkinsMesh","value":{"$content":[{"$content":14,"$type":"UnityEngine.Object"},{"$content":15,"$type":"UnityEngine.Object"}],"$type":"Unity.VisualScripting.AotList"},"typeHandle":{"Identification":"Unity.VisualScripting.AotList,
+      Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1254522531996671460}
     - {fileID: 3332670030661915690}
@@ -662,6 +671,12 @@ MonoBehaviour:
     - {fileID: 0}
     - {fileID: 1115747788738772612}
     - {fileID: 7759654290746591248}
+    - {fileID: 98602998877697365}
+    - {fileID: 2800000, guid: 3a26995c278c9c04d9bf34a8683d3f46, type: 3}
+    - {fileID: 2800000, guid: 8f457775dda4deb45afbbb30950b0e44, type: 3}
+    - {fileID: 2800000, guid: 4a7f7ff7b78a62b4fbd7846f45496c79, type: 3}
+    - {fileID: -2088035973499195213, guid: 4d98980a1c1ae6d4bb917d7780ccd248, type: 3}
+    - {fileID: -2048241213754694852, guid: 9933b07752641dc478429d946e9f65ad, type: 3}
 --- !u!114 &570941796686106160
 MonoBehaviour:
   m_ObjectHideFlags: 0
