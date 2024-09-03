@@ -17,9 +17,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/scenes/Testing/benchmark_island-static.unity
     guid: bf8529d52d0dac843b94245ecf955d4a
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Totto/Escenas/Totto_1.unity
     guid: 78d9e90dfa845244fad7e37586ff19f9
+  - enabled: 1
+    path: Assets/_Totto/Escenas/Totto_Game.unity
+    guid: 4564c49e468b77647b67ccd83b2ae91c
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 1a989e4fc36cd7c46a9789019cc44274,
       type: 2}
