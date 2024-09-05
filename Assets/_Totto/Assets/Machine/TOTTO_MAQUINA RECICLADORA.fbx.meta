@@ -7,48 +7,108 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: LOGO TOTTO
-    second: {fileID: 2100000, guid: cd9394ad4ee00654d9ea7e591e7ade23, type: 2}
+      name: AMARILLO
+    second: {fileID: 2100000, guid: 25a7db3412c24af44bb9a890c79d4d29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AMARILLO__TOTTO
+    second: {fileID: 2100000, guid: 8d6f84b6d8e5c7a46b588c295e0a3fea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LUZ LOGO
+    second: {fileID: 2100000, guid: bee54f8f9b5edb54396363dba902bf8e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: LuzA
-    second: {fileID: 2100000, guid: 9f86422384bad67499c93346608c63a9, type: 2}
+    second: {fileID: 2100000, guid: a41395ec9e60c9c44aeea5e552919a12, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material
-    second: {fileID: 2100000, guid: 6cbacb67796801843bd1fe01f2e8d8cc, type: 2}
+    second: {fileID: 2100000, guid: 3d3690eaa461c084eab7357b3f66d202, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 82ba3bab64303664ab34122396645a4e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.002
-    second: {fileID: 2100000, guid: 4c84d8eed2f59644f986be688301a7b7, type: 2}
+    second: {fileID: 2100000, guid: 5b011ec6009315e48bf9ab00e3f44c54, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.003
-    second: {fileID: 2100000, guid: 92fe3347b6399aa458e125ed1e144dcf, type: 2}
+    second: {fileID: 2100000, guid: 7f3cd9f8a7838af49baeb3a7fccc188f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.004
+    second: {fileID: 2100000, guid: c82115ddc13d4824f80c4ef0afeecf8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.005
+    second: {fileID: 2100000, guid: 3fdd047c10b453d42bdc4dbeb880a364, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.006
+    second: {fileID: 2100000, guid: 82beba33e8fb1b746a89edea57608ac0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: MetalBrillante
-    second: {fileID: 2100000, guid: 7c31b0d2bdde2a449b1a6f8aba5147b5, type: 2}
+    second: {fileID: 2100000, guid: b2f330f2672af5c4f9d7b7700e0a699b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: MetalN1
-    second: {fileID: 2100000, guid: de878d6f4d084c04da9781e6fd1e3d7e, type: 2}
+    second: {fileID: 2100000, guid: 6c7b6aefc0b9b3a4597aafdee3bc0ab5, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: MetalP
-    second: {fileID: 2100000, guid: 4798b9ad41cb6c94f98d6dd5bc086c42, type: 2}
+    second: {fileID: 2100000, guid: 0dd98ef7249171b4d8366f2059b09b83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NARANJA
+    second: {fileID: 2100000, guid: ca90bae6c6ad8c84bb3d706861eb058e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Pantalla
-    second: {fileID: 2100000, guid: 077ca31bd23df3c48b5d493d5c3e9126, type: 2}
+    second: {fileID: 2100000, guid: 30916668724fddb44aaf9d5591b5fee4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ROJO
+    second: {fileID: 2100000, guid: 1b9da47ecde0f8a43aaa02b41aa2b4b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ROJO__TOTTO
+    second: {fileID: 2100000, guid: 409caf4757c118e4899a96ac423865ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VERDE
+    second: {fileID: 2100000, guid: a7c00fcf52bbccb49998ad2a952ee900, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: banco2
+    second: {fileID: 2100000, guid: b3ee23051b2ce14439134584cf204616, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blanco1
+    second: {fileID: 2100000, guid: 3f9671f98d3bc7747bb3b9f76f62ba42, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
