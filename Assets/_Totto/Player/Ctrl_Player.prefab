@@ -790,7 +790,12 @@ PrefabInstance:
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Finger","value":{"$content":"LIndexTrigger","$type":"OVRInput+RawButton"},"typeHandle":{"Identification":"OVRInput+RawButton,
         Oculus.VR, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Hand","value":{"$content":"LTouch","$type":"OVRInput+Controller"},"typeHandle":{"Identification":"OVRInput+Controller,
         Oculus.VR, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ShootPoint","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Projectile","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5222842830146872226, guid: 19680e281e89b474d8534389f3db49ca,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5377491346848444976, guid: 19680e281e89b474d8534389f3db49ca,
         type: 3}

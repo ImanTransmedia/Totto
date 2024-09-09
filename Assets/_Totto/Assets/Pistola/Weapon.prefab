@@ -79,9 +79,11 @@ MonoBehaviour:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Finger","value":{"$content":"RIndexTrigger","$type":"OVRInput+RawButton"},"typeHandle":{"Identification":"OVRInput+RawButton,
       Oculus.VR, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Hand","value":{"$content":"RTouch","$type":"OVRInput+Controller"},"typeHandle":{"Identification":"OVRInput+Controller,
       Oculus.VR, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ShootPoint","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Projectile","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Object,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1206586742221205179}
+    - {fileID: 4385995911141401096, guid: 5f648ce04ba8ef544b715ae4966f2336, type: 3}
 --- !u!114 &1583592164953909290
 MonoBehaviour:
   m_ObjectHideFlags: 0
