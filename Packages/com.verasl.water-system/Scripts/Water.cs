@@ -189,7 +189,42 @@ namespace WaterSystem
                 mat.DisableKeyword("GERSTNER_WAVES");
         }
 
-        private void SetWaves()
+
+        #region Animation
+
+        public int NumWaves
+        {
+            get { return surfaceData._basicWaveSettings.numWaves; }
+            set
+            {
+                surfaceData._basicWaveSettings.numWaves = value;
+                SetWaves();  // Actualiza las olas al cambiar el valor
+            }
+        }
+
+        public float Amplitude
+        {
+            get { return surfaceData._basicWaveSettings.amplitude; }
+            set
+            {
+                surfaceData._basicWaveSettings.amplitude = value;
+                SetWaves();  // Actualiza las olas al cambiar el valor
+            }
+        }
+
+        public float Wavelength
+        {
+            get { return surfaceData._basicWaveSettings.wavelength; }
+            set
+            {
+                surfaceData._basicWaveSettings.wavelength = value;
+                SetWaves();  // Actualiza las olas al cambiar el valor
+            }
+        }
+
+        #endregion 
+
+        public void SetWaves()
         {
             SetupWaves(surfaceData._customWaves);
 
