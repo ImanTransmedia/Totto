@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/_Totto/Escenas/Totto_1.unity
     guid: 78d9e90dfa845244fad7e37586ff19f9
   - enabled: 1
+    path: Assets/_Totto/Escenas/Totto_Intro.unity
+    guid: 47f028cfcfc7f7447ab104a6e0a11166
+  - enabled: 1
     path: Assets/_Totto/Escenas/Totto_Game.unity
     guid: 4564c49e468b77647b67ccd83b2ae91c
   m_configObjects:

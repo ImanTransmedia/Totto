@@ -16,6 +16,7 @@ TagManager:
   - Projectile
   - Enemies
   - Bottle
+  - Paneles
   layers:
   - Default
   - TransparentFX
