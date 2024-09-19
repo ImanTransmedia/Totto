@@ -17,11 +17,18 @@ TagManager:
   - Enemies
   - Bottle
   - Paneles
+  - Locomotion
+  - PassThrough
+  - PassThroughButton
+  - LocoButton
+  - LocoText
+  - SamplesInfoPanel
+  - benchmark
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Projectile
   - Water
   - UI
   - 
