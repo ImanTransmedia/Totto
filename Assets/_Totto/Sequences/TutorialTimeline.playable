@@ -454,7 +454,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
   m_Name: Signal Emitter(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: 
-  m_Time: 0.0833333333333286
+  m_Time: 3
   m_Retroactive: 0
   m_EmitOnce: 0
   m_Asset: {fileID: 11400000, guid: f18d82c409195b240bd66a5339af198b, type: 2}
